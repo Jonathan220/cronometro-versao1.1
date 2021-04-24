@@ -5,7 +5,6 @@ function acionarRelogio(){
 
     document.addEventListener('click', (event)=>{
         const el = event.target;
-        console.log(el);
         
         if(el.classList.contains('iniciar')){
             relogioTexto.classList.remove('pausado');
